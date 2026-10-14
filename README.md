@@ -103,3 +103,15 @@ Possible future improvements include:
 The NLG EA Gaming App provides a convenient way for users to explore gaming packages and discover available experiences. Its simple navigation, colourful design, and package information help users interact with the gaming service.
 
 The project demonstrates the use of React Native, JavaScript, Expo Snack, and GitHub in developing and managing a mobile application.
+
+## 11. References
+
+Expo (2026) *Expo Documentation*. Available at: https://docs.expo.dev/ (Accessed: 14 October 2026).
+
+GitHub (2026) *GitHub Documentation*. Available at: https://docs.github.com/ (Accessed: 14 October 2026).
+
+Meta Open Source (2026) *React Native Documentation*. Available at: https://reactnative.dev/docs/getting-started (Accessed: 14 October 2026).
+
+Mozilla Developer Network (MDN) (2026) *JavaScript Guide*. Available at: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide (Accessed: 14 October 2026).
+
+Expo (2026) *Snack: Online React Native Playground*. Available at: https://snack.expo.dev/ (Accessed: 14 October 2026).
