@@ -1,4 +1,3 @@
-
 import React, { useMemo, useState } from "react";
 import {
   SafeAreaView, View, Text, ScrollView, Image, ImageBackground,
@@ -13,22 +12,22 @@ const C = {
 
 const packages = [
   { id:"escape", title:"Escape Room Challenge", category:"Challenge", price:750, color:C.coral,
-    image:require("./assets/escape-room.jpg"), description:"Escape the room by solving puzzles before the time runs out.",
+    image: { uri:"https://raw.githubusercontent.com/melvinmatjiu31-web/NLGEA-GAMING-APP/main/assets/escape-room.jpg"}, description:"Escape the room by solving puzzles before the time runs out.",
     includes:["Team challenge","Themed escape room","Digital scoreboard"] },
   { id:"vr", title:"Virtual Reality Experience", category:"Experience", price:750, color:C.orange,
-    image:require("./assets/virtual-reality.jpg"), description:"VR games of all types are available for you to experience.",
+    image: { uri:"https://raw.githubusercontent.com/melvinmatjiu31-web/NLGEA-GAMING-APP/main/assets/racing-simulator.jpg"}, description:"VR games of all types are available for you to experience.",
     includes:["VR headsets","Choice of game","Staff assistance"] },
   { id:"racing", title:"Racing Simulator Challenge", category:"Challenge", price:750, color:C.orange,
-    image:require("./assets/racing-simulator.jpg"), description:"Race against your friends and test your driving skills.",
+    image:{ uri:"https://raw.githubusercontent.com/melvinmatjiu31-web/NLGEA-GAMING-APP/main/assets/ultimate-gamer.jpg"}, description:"Race against your friends and test your driving skills.",
     includes:["Racing simulator","Choice of tracks","Leaderboard competition"] },
   { id:"gamer", title:"Ultimate Gamer Pass", category:"Gaming", price:1150, color:C.coral,
-    image:require("./assets/ultimate-gamer.jpg"), description:"Unlimited gaming access for the whole day.",
+    image:{ uri:"https://raw.githubusercontent.com/melvinmatjiu31-web/NLGEA-GAMING-APP/main/assets/esports-training.jpg"}, description:"Unlimited gaming access for the whole day.",
     includes:["PC gaming","Console gaming","High-speed internet","Snack voucher","Tournament entry"] },
   { id:"esports", title:"Esports Training Package", category:"Training", price:1500, color:C.purple,
-    image:require("./assets/esports-training.jpg"), description:"Enhance your gaming skills with our professional coaching.",
+    image:{ uri:"https://raw.githubusercontent.com/melvinmatjiu31-web/NLGEA-GAMING-APP/main/assets/birthday-party.jpg"}, description:"Enhance your gaming skills with our professional coaching.",
     includes:["Strategy coaching","Team communication","Match analysis","Practice sessions","Performance feedback"] },
   { id:"birthday", title:"Birthday Party Package", category:"Party", price:1500, color:C.purple,
-    image:require("./assets/birthday-party.jpg"), description:"Themed celebration for your special day.",
+    image:{ uri:"https://raw.githubusercontent.com/melvinmatjiu31-web/NLGEA-GAMING-APP/main/assets/birthday-party.jpg"}, description:"Themed celebration for your special day.",
     includes:["Reserved gaming area","Multiplayer competitions","Party decorations","Catering","Tournament prizes"] },
 ];
 
