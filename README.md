@@ -87,6 +87,9 @@ The source code and project documentation are available in this repository.
 
 Repository: https://github.com/melvinmatjiu31-web/NLGEA-GAMING-APP
 
+Youtube demonstration video for the mobile application-
+(https://youtu.be/4Mya80b_UbQ)
+
 ## 9. Future Improvements
 
 Possible future improvements include:
